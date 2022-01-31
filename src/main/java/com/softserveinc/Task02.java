@@ -34,6 +34,26 @@ public class Task02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // TODO: Write your code here
+        System.out.print("Write how many cups of coffee you will need:\n");
+        System.out.print (">>> ");
+        int cups = scanner.nextInt();
+        //int w = 200; // water ml
+        //int m = 50; //milk ml
+        //int cb = 15; // coffee beans g
+
+        int water = 200 * cups;
+        int milk = 50 * cups;
+        int beans = 15 * cups;
+
+
+        System.out.println("For "+ cups + " cups of coffee you will need: ");
+        String s2=water + " ml of water ";
+        System.out.println(s2);
+        String s3=milk + " ml of milk ";
+        System.out.println(s3);
+        String s4=beans + " g of coffee beans ";
+        System.out.println(s4);
 
     }
 }
+
